@@ -103,18 +103,20 @@ print(" \n PROBLEM 2.4 : ITERATING THROUGH THE DICTIONARY \n")
 //Also, when you print the value in the action braces, ADD a line to each value by including the code:   + "\n"
  // "\n" just means to add a line.
  //Ignore yellow warning.
- 
+for(key,value) in favoriteWords {
+    print(value + "\n")
+}
 
  
  
 print("\n PROBLEM 2.4.1 : WHAT HAPPENED IN 2.4?")
 //Print out what happened when you ran 2.4.
- 
+print("it spaced out the values of favoriteWords")
  
  
  print(" \n PROBLEM 2.5.0 : REMOVING ITEMS FROM DICTIONARY \n")
 // Use the built in dictionary method to remove all current items from your dictionary that you created in Problem 2.0. Print it out and observe the results.
-
+favoriteWords.removeAll()
  
  
 print("\n PROBLEM 2.5.1 : WHAT HAPPENED TO 2.5.0? \n")
